@@ -27,4 +27,15 @@
   <url><loc>https://ai-career-lab-deploy.pages.dev/guide/future/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://ai-career-lab-deploy.pages.dev/salary/ranking/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://ai-career-lab-deploy.pages.dev/salary/by-tech/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/ranking/ai-engineer/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/ranking/data-scientist/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/ranking/inexperienced/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/ranking/high-class/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/tech/sql-tableau/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/tech/docker-k8s/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/interview/questions/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/interview/coding-test/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/interview/portfolio/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/interview/kaggle/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/interview/skill-map/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
 </urlset>

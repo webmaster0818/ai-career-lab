@@ -150,5 +150,81 @@
       { "q": "インフラエンジニアからの転職は有利？", "a": "非常に有利です。AWS/GCPの基礎知識、Docker/K8s、ネットワーク・セキュリティの知識はそのまま活かせます。MLの基礎知識を追加するだけで即戦力です。" },
       { "q": "認定資格は転職に有利？", "a": "AWS ML SpecialtyやGCP Professional ML Engineerの認定は、書類選考の通過率を上げる効果があります。特に年収600万円以上の求人では資格保持者を優遇する企業が増えています。" }
     ]
+  },
+  {
+    "slug": "sql-tableau",
+    "title": "SQL / Tableau",
+    "subtitle": "データアナリスト必須スキル",
+    "color": "#E97627",
+    "icon": "BI",
+    "description": "SQLはデータ操作の基盤言語、TableauはBIツールの代表格。データアナリストとして転職するために最初に押さえるべきスキルセットです。BigQuery・Redshiftなどのクラウドデータウェアハウスと組み合わせることで、データドリブンな意思決定を支援します。",
+    "marketOverview": "データアナリスト求人の95%以上がSQL必須。Tableau・Power BIなどのBIツールスキルは、データアナリストとしての差別化要因になっています。特にSaaS企業・EC・金融業界でのデータ活用需要が高く、未経験からの転職でもSQLの実力があれば書類通過率が大幅に向上します。",
+    "avgSalary": 580,
+    "salaryRange": "350-900万円",
+    "jobCount": "12,000件+",
+    "demandTrend": "安定的に高い",
+    "keyLibraries": [
+      { "name": "SQL", "desc": "データ抽出・集計・結合の基盤言語。BigQuery/Redshift/PostgreSQL等で使用" },
+      { "name": "Tableau", "desc": "インタラクティブなデータ可視化BIツール。ドラッグ&ドロップで高度なダッシュボード作成" },
+      { "name": "Power BI", "desc": "Microsoftのデータ可視化ツール。Office 365との親和性が高く企業導入率No.1" },
+      { "name": "Google Data Studio (Looker Studio)", "desc": "無料のBIツール。GA4・BigQueryとの連携が容易" },
+      { "name": "Excel / Google Sheets", "desc": "ピボットテーブル・VLOOKUP・マクロによるデータ分析。多くの企業で必須" }
+    ],
+    "careerPaths": [
+      "データアナリスト → SQL + BI で即戦力エントリー",
+      "ビジネスアナリスト → データで事業課題を解決",
+      "データエンジニア → SQL + Python でデータ基盤構築",
+      "データサイエンティスト → SQL を土台に機械学習へ"
+    ],
+    "recommendedAgents": ["mynavi-it-agent", "doda", "recruit-agent"],
+    "studyRoadmap": [
+      { "step": 1, "title": "SQL基礎", "duration": "1ヶ月", "desc": "SELECT/WHERE/GROUP BY/JOIN/サブクエリ。SQLZoo・Progateで練習" },
+      { "step": 2, "title": "SQLの応用", "duration": "1ヶ月", "desc": "ウィンドウ関数・CTE・パフォーマンスチューニング。実務レベルの複雑クエリを書けるように" },
+      { "step": 3, "title": "Tableau基礎", "duration": "1-2ヶ月", "desc": "ディメンション・メジャーの概念、LOD計算、ダッシュボード作成。Tableau Publicで公開" },
+      { "step": 4, "title": "BIポートフォリオ", "duration": "1ヶ月", "desc": "実データを使ったダッシュボードを3-5本作成してTableau Public公開。転職時の強力な武器に" }
+    ],
+    "faqs": [
+      { "q": "SQLだけで転職できる？", "a": "SQL + ExcelでデータアナリストへのエントリーレベルならSQL単独でも転職可能です。ただしTableauやPower BIなどのBIスキルを加えることで、年収帯や選べる企業の幅が大きく広がります。" },
+      { "q": "TableauとPower BIどちらを学ぶべき？", "a": "スタートアップ・コンサル・広告業界ではTableauが主流、大企業・製造・金融ではPower BIが多い傾向があります。志望業界に合わせて選ぶと良いでしょう。どちらも基本概念は共通なので、一方を習得すれば移行は容易です。" },
+      { "q": "未経験からデータアナリストになれる？", "a": "SQLとBIスキルは比較的短期間で習得できるため、未経験からの転職成功例が多い職種です。特にSQLの実力があれば、マイナビITエージェントやdodaのポテンシャル採用枠でチャンスがあります。" }
+    ]
+  },
+  {
+    "slug": "docker-k8s",
+    "title": "Docker / Kubernetes",
+    "subtitle": "MLOps・ML基盤構築の必須スキル",
+    "color": "#2496ED",
+    "icon": "K8",
+    "description": "DockerはMLモデルのコンテナ化、KubernetesはMLシステムのオーケストレーションに不可欠。MLOpsエンジニアやMLプラットフォームエンジニアとして高年収を目指すために必須の技術スタックです。Helm・ArgoCD・Terraformと組み合わせてML基盤をフルに自動化します。",
+    "marketOverview": "MLOps市場は2026年に向けて急拡大中。ML基盤を構築・運用できるエンジニアの不足は深刻で、Docker/K8sスキルを持つMLエンジニアは年収700万円以上が一般的です。KubernetesによるMLパイプラインの自動化・スケーリングを実装できる人材は特に希少で、年収プレミアムが発生しています。",
+    "avgSalary": 780,
+    "salaryRange": "500-1300万円",
+    "jobCount": "9,000件+",
+    "demandTrend": "急上昇中",
+    "keyLibraries": [
+      { "name": "Docker", "desc": "コンテナ化技術。MLモデル・学習環境の再現性確保と本番デプロイに必須" },
+      { "name": "Kubernetes (K8s)", "desc": "コンテナオーケストレーション。ML推論サービスのスケーリング・自己修復を自動化" },
+      { "name": "Helm", "desc": "KubernetesのパッケージマネージャーML基盤のデプロイを宣言的に管理" },
+      { "name": "ArgoCD", "desc": "GitOpsベースの継続的デリバリー。MLモデルの自動デプロイパイプライン構築" },
+      { "name": "Terraform", "desc": "インフラのコード化（IaC）。AWS/GCPのML基盤を再現性高く構築・管理" }
+    ],
+    "careerPaths": [
+      "MLOpsエンジニア → MLパイプラインのCI/CD自動化",
+      "MLプラットフォームエンジニア → 社内ML基盤の設計・構築・運用",
+      "クラウドMLエンジニア → K8s + AWS/GCPでスケーラブルなML推論基盤",
+      "DevOpsエンジニア → インフラ自動化のスペシャリスト"
+    ],
+    "recommendedAgents": ["willof-tech", "levtech-career", "geekly"],
+    "studyRoadmap": [
+      { "step": 1, "title": "Docker基礎", "duration": "2-4週間", "desc": "Dockerfile・docker-compose・イメージ管理。MLモデルをコンテナ化する実践" },
+      { "step": 2, "title": "Kubernetes基礎", "duration": "1-2ヶ月", "desc": "Pod/Deployment/Service/Ingress。minikubeでローカル検証、KatacodaやKiller.sh" },
+      { "step": 3, "title": "MLOpsパイプライン", "duration": "2-3ヶ月", "desc": "Kubeflow・MLflow + K8s。学習→評価→デプロイのパイプライン自動化を実装" },
+      { "step": 4, "title": "本番運用・資格", "duration": "2ヶ月", "desc": "CKA（Certified Kubernetes Administrator）取得。本番クラスタの運用経験を積む" }
+    ],
+    "faqs": [
+      { "q": "DockerなしでKubernetesを学べる？", "a": "Dockerの基礎知識が先に必要です。コンテナの概念（イメージ・レイヤー・ポート・ボリューム）を理解してからK8sに進むことを強くおすすめします。Docker習得に約1ヶ月、その後K8sに進むのが最短ルートです。" },
+      { "q": "バックエンドエンジニアからMLOpsへの転職は可能？", "a": "非常に現実的なキャリアパスです。Linux・Docker・CI/CDの経験はそのまま活かせます。PythonとML基礎を加えることで、MLOpsエンジニアとしてのポジションを狙えます。ウィルオブテックやレバテックキャリアがこのパスに強い求人を持っています。" },
+      { "q": "CKA資格は転職に効果的？", "a": "CKA（Certified Kubernetes Administrator）はMLOps・クラウドインフラ系求人での書類通過率向上に効果的です。特に年収700万円以上のポジションでは保持者を優遇する企業が多く、取得を強くおすすめします。" }
+    ]
   }
 ]

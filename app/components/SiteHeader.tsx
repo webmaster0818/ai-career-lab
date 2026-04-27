@@ -14,9 +14,10 @@ export default function SiteHeader() {
             </div>
             <span className="text-lg font-bold text-text-primary">AIキャリアラボ</span>
           </Link>
-          <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-text-secondary">
-            <Link href="/#ranking" className="hover:text-primary transition-colors">ランキング</Link>
+          <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-text-secondary">
+            <Link href="/ranking/ai-engineer/" className="hover:text-primary transition-colors">ランキング</Link>
             <Link href="/#tech-stack" className="hover:text-primary transition-colors">技術スタック別</Link>
+            <Link href="/interview/questions/" className="hover:text-primary transition-colors">面接対策</Link>
             <Link href="/salary/ranking/" className="hover:text-primary transition-colors">年収データ</Link>
             <Link href="/guide/roadmap/" className="hover:text-primary transition-colors">キャリアガイド</Link>
           </nav>
@@ -87,6 +88,29 @@ export default function SiteHeader() {
                 { name: "AI業界の将来性と市場規模", slug: "future" },
               ].map((g) => (
                 <Link key={g.slug} href={`/guide/${g.slug}/`} onClick={() => setOpen(false)} className="block py-2.5 px-3 text-text-primary hover:bg-surface-alt rounded-lg">{g.name}</Link>
+              ))}
+
+              <div className="border-t border-border my-3" />
+              <p className="text-xs text-text-muted font-medium tracking-wider mb-2">ランキング</p>
+              {[
+                { name: "AIエンジニア向けランキング", slug: "ai-engineer" },
+                { name: "データサイエンティスト向けランキング", slug: "data-scientist" },
+                { name: "未経験向けランキング", slug: "inexperienced" },
+                { name: "ハイクラス（1000万+）ランキング", slug: "high-class" },
+              ].map((r) => (
+                <Link key={r.slug} href={`/ranking/${r.slug}/`} onClick={() => setOpen(false)} className="block py-2.5 px-3 text-text-primary hover:bg-surface-alt rounded-lg">{r.name}</Link>
+              ))}
+
+              <div className="border-t border-border my-3" />
+              <p className="text-xs text-text-muted font-medium tracking-wider mb-2">面接・スキル対策</p>
+              {[
+                { name: "よく聞かれる質問30選", slug: "questions" },
+                { name: "コーディングテスト対策", slug: "coding-test" },
+                { name: "ポートフォリオの作り方", slug: "portfolio" },
+                { name: "Kaggle活用ガイド", slug: "kaggle" },
+                { name: "スキルマップ2026", slug: "skill-map" },
+              ].map((iv) => (
+                <Link key={iv.slug} href={`/interview/${iv.slug}/`} onClick={() => setOpen(false)} className="block py-2.5 px-3 text-text-primary hover:bg-surface-alt rounded-lg">{iv.name}</Link>
               ))}
 
               <div className="border-t border-border my-3" />
