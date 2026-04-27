@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ai-career-lab-deploy.pages.dev/sitemap.xml

@@ -1,34 +1,42 @@
+import Link from "next/link";
 import agents from "@/data/agents.json";
+import SiteHeader from "@/app/components/SiteHeader";
+import SiteFooter from "@/app/components/SiteFooter";
 
 const top3 = agents.slice(0, 3);
 
 const jobCategories = [
   {
     title: "AIエンジニア",
+    slug: "ai-engineer",
     icon: "🤖",
-    desc: "LLM・生成AI・深層学習モデルの開発",
+    desc: "LLM・生成AI・深層学習モデルの���発",
     salary: "600〜1,200万円",
   },
   {
     title: "データサイエンティスト",
+    slug: "data-scientist",
     icon: "📊",
     desc: "データ分析・統計モデリング・BI",
     salary: "550〜1,100万円",
   },
   {
     title: "MLエンジニア",
+    slug: "ml-engineer",
     icon: "⚙️",
     desc: "機械学習パイプライン構築・モデル実装",
     salary: "600〜1,300万円",
   },
   {
     title: "MLOpsエンジニア",
+    slug: "mlops-engineer",
     icon: "🚀",
     desc: "ML基盤構築・モデル運用・CI/CD",
     salary: "650〜1,200万円",
   },
   {
     title: "データアナリスト",
+    slug: "data-analyst",
     icon: "📈",
     desc: "データ集計・可視化・意思決定支援",
     salary: "450〜800万円",
@@ -38,24 +46,28 @@ const jobCategories = [
 const techStacks = [
   {
     name: "Python / scikit-learn",
+    slug: "python",
     desc: "データ分析・ML基礎",
     recommended: ["レバテックキャリア", "マイナビITエージェント", "doda"],
     color: "#3776AB",
   },
   {
     name: "PyTorch / TensorFlow",
+    slug: "pytorch",
     desc: "深層学習・モデル開発",
     recommended: ["Geekly", "レバテックキャリア", "Symbiorise"],
     color: "#EE4C2C",
   },
   {
     name: "LLM / RAG / LangChain",
+    slug: "llm",
     desc: "生成AI・LLMアプリ開発",
     recommended: ["Geekly", "Symbiorise", "ウィルオブテック"],
     color: "#8B5CF6",
   },
   {
     name: "AWS / GCP ML Services",
+    slug: "aws-ml",
     desc: "クラウドML基盤・MLOps",
     recommended: ["ウィルオブテック", "ビズリーチ", "レバテックキャリア"],
     color: "#FF9900",
@@ -149,48 +161,7 @@ const faqs = [
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* ===== Header ===== */}
-      <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-xl border-b border-border">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg gradient-bg flex items-center justify-center">
-              <span className="text-white text-sm font-bold">AI</span>
-            </div>
-            <span className="text-lg font-bold text-text-primary">
-              AIキャリアラボ
-            </span>
-          </div>
-          <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-text-secondary">
-            <a href="#ranking" className="hover:text-primary transition-colors">
-              ランキング
-            </a>
-            <a
-              href="#tech-stack"
-              className="hover:text-primary transition-colors"
-            >
-              技術スタック別
-            </a>
-            <a href="#salary" className="hover:text-primary transition-colors">
-              年収データ
-            </a>
-            <a
-              href="#how-to-choose"
-              className="hover:text-primary transition-colors"
-            >
-              選び方
-            </a>
-            <a href="#faq" className="hover:text-primary transition-colors">
-              FAQ
-            </a>
-          </nav>
-          <a
-            href="#ranking"
-            className="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-lg gradient-bg text-white text-sm font-medium hover:opacity-90 transition-opacity"
-          >
-            エージェントを比較する
-          </a>
-        </div>
-      </header>
+      <SiteHeader />
 
       <main className="flex-1">
         {/* ===== Hero ===== */}
@@ -275,9 +246,10 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
               {jobCategories.map((job) => (
-                <div
+                <Link
                   key={job.title}
-                  className="card-hover p-6 rounded-2xl bg-surface-alt border border-border hover:border-primary/30 cursor-pointer"
+                  href={`/job/${job.slug}/`}
+                  className="card-hover p-6 rounded-2xl bg-surface-alt border border-border hover:border-primary/30 cursor-pointer block"
                 >
                   <div className="text-3xl mb-3">{job.icon}</div>
                   <h3 className="font-bold text-lg mb-1">{job.title}</h3>
@@ -285,7 +257,7 @@ export default function Home() {
                   <div className="text-sm font-bold text-primary">
                     {job.salary}
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>
@@ -384,14 +356,22 @@ export default function Home() {
                         ))}
                       </ul>
 
-                      <a
-                        href={agent.officialUrl}
-                        target="_blank"
-                        rel="noopener noreferrer nofollow"
-                        className="block w-full text-center py-3 rounded-xl gradient-bg text-white font-bold hover:opacity-90 transition-opacity"
-                      >
-                        公式サイトを見る
-                      </a>
+                      <div className="flex gap-2">
+                        <Link
+                          href={`/agent/${agent.slug}/`}
+                          className="flex-1 text-center py-3 rounded-xl bg-surface-alt border border-primary/20 text-primary font-bold hover:bg-primary/5 transition-colors"
+                        >
+                          詳細を見る
+                        </Link>
+                        <a
+                          href={agent.officialUrl}
+                          target="_blank"
+                          rel="noopener noreferrer nofollow"
+                          className="flex-1 text-center py-3 rounded-xl gradient-bg text-white font-bold hover:opacity-90 transition-opacity"
+                        >
+                          公式サイト
+                        </a>
+                      </div>
                     </div>
                   </div>
                 );
@@ -446,10 +426,8 @@ export default function Home() {
                           {agent.avgSalaryUp}万円
                         </td>
                         <td className="px-4 py-3 text-center">
-                          <a
-                            href={agent.officialUrl}
-                            target="_blank"
-                            rel="noopener noreferrer nofollow"
+                          <Link
+                            href={`/agent/${agent.slug}/`}
                             className="inline-flex items-center gap-1 text-primary hover:underline font-medium"
                           >
                             詳細
@@ -463,10 +441,10 @@ export default function Home() {
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
                                 strokeWidth={2}
-                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                d="M9 5l7 7-7 7"
                               />
                             </svg>
-                          </a>
+                          </Link>
                         </td>
                       </tr>
                     ))}
@@ -494,9 +472,10 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {techStacks.map((stack) => (
-                <div
+                <Link
+                  href={`/tech/${stack.slug}/`}
                   key={stack.name}
-                  className="card-hover rounded-2xl bg-surface-alt border border-border p-6 relative overflow-hidden"
+                  className="card-hover rounded-2xl bg-surface-alt border border-border p-6 relative overflow-hidden block"
                 >
                   <div
                     className="absolute top-0 left-0 w-1 h-full"
@@ -537,7 +516,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>
@@ -714,78 +693,7 @@ export default function Home() {
         </section>
       </main>
 
-      {/* ===== Footer ===== */}
-      <footer className="bg-[#1a1a2e] text-white/70 py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-            <div>
-              <div className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 rounded-lg gradient-bg flex items-center justify-center">
-                  <span className="text-white text-sm font-bold">AI</span>
-                </div>
-                <span className="text-lg font-bold text-white">
-                  AIキャリアラボ
-                </span>
-              </div>
-              <p className="text-sm leading-relaxed">
-                AIエンジニア・データサイエンティストの
-                転職を支援する情報メディアです。
-              </p>
-            </div>
-            <div>
-              <h4 className="font-bold text-white mb-3">コンテンツ</h4>
-              <ul className="space-y-2 text-sm">
-                <li>
-                  <a
-                    href="#ranking"
-                    className="hover:text-white transition-colors"
-                  >
-                    エージェントランキング
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#tech-stack"
-                    className="hover:text-white transition-colors"
-                  >
-                    技術スタック別おすすめ
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#salary"
-                    className="hover:text-white transition-colors"
-                  >
-                    年収データ
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#how-to-choose"
-                    className="hover:text-white transition-colors"
-                  >
-                    エージェントの選び方
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-bold text-white mb-3">運営情報</h4>
-              <ul className="space-y-2 text-sm">
-                <li>運営: 株式会社MediaX</li>
-                <li>所在地: 東京都渋谷区</li>
-              </ul>
-            </div>
-          </div>
-          <div className="border-t border-white/10 pt-8 text-center text-xs">
-            <p className="mb-2">
-              ※ 本サイトはアフィリエイトプログラムに参加しています。
-              ランキング・おすすめは編集部が独自に評価したものです。
-            </p>
-            <p>&copy; 2026 AIキャリアラボ - 株式会社MediaX All Rights Reserved.</p>
-          </div>
-        </div>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }

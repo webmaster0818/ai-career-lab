@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://ai-career-lab-deploy.pages.dev/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/agent/geekly/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/agent/levtech-career/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/agent/willof-tech/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/agent/symbiorise/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/agent/mynavi-it-agent/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/agent/bizreach/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/agent/doda/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/agent/recruit-agent/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/agent/green/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/agent/jaic/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/job/ai-engineer/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/job/data-scientist/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/job/ml-engineer/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/job/mlops-engineer/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/job/data-analyst/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/tech/python/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/tech/pytorch/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/tech/llm/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/tech/aws-ml/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/guide/roadmap/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/guide/sier-to-ai/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/guide/web-to-ds/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/guide/qualifications/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/guide/future/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/salary/ranking/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/salary/by-tech/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+</urlset>

@@ -1,0 +1,302 @@
+[
+  {
+    "slug": "roadmap",
+    "title": "未経験からAIエンジニアになるロードマップ【2026年版】",
+    "shortTitle": "未経験→AIエンジニア",
+    "description": "プログラミング未経験からAIエンジニアとして転職するまでの具体的なステップを解説。学習期間の目安、必要なスキル、ポートフォリオの作り方まで。",
+    "heroText": "AIエンジニアへの道は、正しいステップを踏めば未経験からでも実現できます。",
+    "targetAudience": "プログラミング未経験者・異業種からの転職希望者",
+    "estimatedTime": "6〜12ヶ月",
+    "steps": [
+      {
+        "phase": "Phase 1",
+        "title": "Python基礎の習得",
+        "duration": "1-2ヶ月",
+        "content": "まずはプログラミングの基礎をPythonで学びます。変数、条件分岐、ループ、関数、クラスなどの基本概念を押さえましょう。",
+        "resources": ["Progate（Python）", "paizaラーニング", "Udemy『Python入門講座』"],
+        "goal": "基本的なPythonコードを自力で書ける状態"
+      },
+      {
+        "phase": "Phase 2",
+        "title": "データ分析の基礎",
+        "duration": "1-2ヶ月",
+        "content": "Pandas、NumPy、Matplotlibを使ったデータ操作・可視化を学びます。Kaggle Learnの無料コースが最適です。",
+        "resources": ["Kaggle Learn（Pandas/Data Visualization）", "『Pythonによるデータ分析入門』"],
+        "goal": "CSVデータを読み込んで分析・可視化ができる状態"
+      },
+      {
+        "phase": "Phase 3",
+        "title": "機械学習の基礎",
+        "duration": "2-3ヶ月",
+        "content": "scikit-learnを使った機械学習の基礎を学びます。分類・回帰・クラスタリング、特徴量エンジニアリング、モデル評価の手法を習得。",
+        "resources": ["Coursera『Machine Learning』（Andrew Ng）", "Kaggle Learn（Intro to ML）", "scikit-learn公式チュートリアル"],
+        "goal": "Kaggleコンペで銅メダルレベルのモデルが作れる状態"
+      },
+      {
+        "phase": "Phase 4",
+        "title": "深層学習の基礎",
+        "duration": "2-3ヶ月",
+        "content": "PyTorchを使った深層学習の実装を学びます。CNN（画像）、RNN（系列）、Transformer（NLP/LLM）の基礎を押さえましょう。",
+        "resources": ["fast.ai（Practical Deep Learning）", "PyTorch公式チュートリアル", "Coursera『Deep Learning Specialization』"],
+        "goal": "PyTorchでCNN/Transformerモデルを実装できる状態"
+      },
+      {
+        "phase": "Phase 5",
+        "title": "ポートフォリオ作成 & 転職活動",
+        "duration": "1-3ヶ月",
+        "content": "学んだスキルを証明するポートフォリオを作成し、転職活動を開始します。Kaggleのコンペ実績、GitHubでの公開プロジェクト、技術ブログが効果的です。",
+        "resources": ["Kaggleコンペ参加", "GitHub（公開リポジトリ）", "Qiita/Zenn（技術ブログ）"],
+        "goal": "ポートフォリオ3-5個 + 転職エージェント2-3社に登録"
+      }
+    ],
+    "tips": [
+      "毎日2-3時間の学習を継続することが最重要。週末にまとめて、より長期的に続けるのも効果的",
+      "Kaggleは最強のポートフォリオ。銅メダル以上の実績があると書類通過率が大幅に上がる",
+      "AtCoderなどの競技プログラミングも、コーディング面接対策として有効",
+      "技術ブログ（Qiita/Zenn）での発信は、E-E-A-T（専門性の証明）にもなる",
+      "転職エージェントは特化型（Geekly/Symbiorise）+ 総合型（doda）の併用がおすすめ"
+    ],
+    "recommendedAgents": ["jaic", "mynavi-it-agent", "geekly", "symbiorise"],
+    "faqs": [
+      { "q": "数学が苦手でもAIエンジニアになれる？", "a": "高校数学レベル（線形代数・微積分・確率統計の基礎）は必要ですが、大学レベルの高度な数学は必須ではありません。Khan Academy等の無料教材で並行して学習できます。" },
+      { "q": "年齢制限はある？", "a": "法的な制限はありませんが、20-30代がポテンシャル採用の中心です。35歳以上の場合は、前職の経験を活かせるドメイン（金融、医療等）のAI職を狙うと有利です。" },
+      { "q": "スクールに通うべき？", "a": "独学力がある人は無料教材（Kaggle Learn、fast.ai、Coursera無料聴講）で十分です。学習の継続が難しい場合は、AIspecialのスクール（3-6ヶ月）を検討しても良いでしょう。" }
+    ]
+  },
+  {
+    "slug": "sier-to-ai",
+    "title": "SIerからAIエンジニアへの転職ガイド【経験者向け】",
+    "shortTitle": "SIer→AIエンジニア",
+    "description": "SIer（システムインテグレーター）で培ったスキルを活かしてAIエンジニアに転職するための戦略と具体的なステップ。",
+    "heroText": "SIerでの開発経験は、AIエンジニアとして大きな武器になります。",
+    "targetAudience": "SIer勤務3年以上のエンジニア",
+    "estimatedTime": "3〜6ヶ月",
+    "steps": [
+      {
+        "phase": "Step 1",
+        "title": "活かせるスキルの棚卸し",
+        "duration": "1週間",
+        "content": "SIerでの経験で培った「要件定義力」「プロジェクト管理力」「顧客折衝力」「品質管理の意識」は、AI開発でも非常に重要です。Java/C#の経験があれば、Pythonへの移行は比較的スムーズです。",
+        "resources": [],
+        "goal": "自分の強み・転用可能スキルを言語化"
+      },
+      {
+        "phase": "Step 2",
+        "title": "Python + ML基礎の習得",
+        "duration": "2-3ヶ月",
+        "content": "SIerエンジニアはプログラミングの基礎があるため、Python習得は1ヶ月程度で可能。その後、scikit-learn/PyTorchの基礎を学びます。",
+        "resources": ["Udemy『Python + ML実践』", "Kaggle Learn", "fast.ai"],
+        "goal": "Pythonでの機械学習実装ができる状態"
+      },
+      {
+        "phase": "Step 3",
+        "title": "実践プロジェクトの作成",
+        "duration": "1-2ヶ月",
+        "content": "SIerの業務知識を活かしたAIプロジェクトを作成。例：業務効率化のための文書分類AI、需要予測モデル、異常検知システムなど。",
+        "resources": ["Kaggle（関連コンペ参加）", "GitHub（ポートフォリオ公開）"],
+        "goal": "ポートフォリオ2-3個の完成"
+      },
+      {
+        "phase": "Step 4",
+        "title": "転職活動",
+        "duration": "1-2ヶ月",
+        "content": "AI特化エージェントに登録し、SIerからの転職に理解のあるアドバイザーを選びましょう。事業会社のAI/DX部門、AIスタートアップがメインターゲットです。",
+        "resources": [],
+        "goal": "内定獲得"
+      }
+    ],
+    "tips": [
+      "SIerの「上流工程スキル」はAIプロジェクトでも希少。要件定義・PM経験は強みとしてアピールしよう",
+      "年収は一時的に下がる可能性があるが、AI業界は昇給速度が速い",
+      "LLM/生成AI領域なら、API連携やシステム設計のSIerスキルがそのまま活きる",
+      "大手SIerからの転職は、事業会社のDX推進部門が穴場"
+    ],
+    "recommendedAgents": ["geekly", "levtech-career", "willof-tech", "recruit-agent"],
+    "faqs": [
+      { "q": "年収は下がる？", "a": "SIerでの年収レンジ（500-700万円）からの転職の場合、AIエンジニアとして同等以上の年収が十分狙えます。特にLLM/生成AI領域は需要が高く、年収UPの可能性も。" },
+      { "q": "SIerの何年目が転職のベストタイミング？", "a": "3-5年目がベストです。基本的な開発経験＋プロジェクト管理の経験があり、かつ年齢的にもポテンシャル採用の対象になります。" },
+      { "q": "Java経験しかないけど大丈夫？", "a": "Java経験者はPythonの習得が非常にスムーズです。オブジェクト指向の概念、変数型の理解、エラーハンドリング等の知識はそのまま活かせます。" }
+    ]
+  },
+  {
+    "slug": "web-to-ds",
+    "title": "Web系エンジニアからデータサイエンティストへの転職ガイド",
+    "shortTitle": "Web系→データサイエンティスト",
+    "description": "Webアプリケーション開発経験を活かしてデータサイエンティストに転職するための具体的な戦略とステップ。",
+    "heroText": "Webエンジニアのスキルセットは、データサイエンスと高い親和性があります。",
+    "targetAudience": "Web系エンジニア2年以上の経験者",
+    "estimatedTime": "3〜6ヶ月",
+    "steps": [
+      {
+        "phase": "Step 1",
+        "title": "Web系スキルの棚卸しと学習計画",
+        "duration": "1週間",
+        "content": "Webエンジニアの強み：API設計、DB操作（SQL）、データフロー理解、A/Bテスト経験。足りないスキル：統計学、機械学習、ビジネス分析力を特定。",
+        "resources": [],
+        "goal": "学習ロードマップの作成"
+      },
+      {
+        "phase": "Step 2",
+        "title": "統計学 + Python データ分析",
+        "duration": "2-3ヶ月",
+        "content": "Webエンジニアはすでにプログラミングができるので、統計学の基礎とPythonデータ分析ライブラリ（Pandas/NumPy/scikit-learn）の習得に集中。",
+        "resources": ["統計WEB（無料）", "Coursera『Statistics with Python』", "Kaggle Learn"],
+        "goal": "仮説検定・回帰分析ができ、scikit-learnでモデル構築できる状態"
+      },
+      {
+        "phase": "Step 3",
+        "title": "BIツール + ビジネス分析",
+        "duration": "1ヶ月",
+        "content": "Tableau/Power BIなどのBIツールでのダッシュボード作成スキルを習得。Web系のログ分析経験をビジネス分析に昇華させる。",
+        "resources": ["Tableau Public（無料版）", "Google Data Studio"],
+        "goal": "ダッシュボードを作成し、ビジネスインサイトを可視化できる状態"
+      },
+      {
+        "phase": "Step 4",
+        "title": "ポートフォリオ + 転職活動",
+        "duration": "1-2ヶ月",
+        "content": "Web系の経験を活かしたDS向けポートフォリオを作成。例：ECサイトの購買予測、ユーザー行動分析、レコメンドシステム構築など。",
+        "resources": ["Kaggle", "GitHub"],
+        "goal": "内定獲得"
+      }
+    ],
+    "tips": [
+      "Web系エンジニアのSQL力は大きな強み。多くのDS候補者はSQLが弱い",
+      "A/Bテスト経験があれば、実験設計スキルとして高く評価される",
+      "MLエンジニアという選択肢も。Web開発力 + ML知識は非常に希少な組み合わせ",
+      "PythonでなくRuby/PHP経験でも、Python習得は2-4週間で可能"
+    ],
+    "recommendedAgents": ["levtech-career", "geekly", "bizreach", "green"],
+    "faqs": [
+      { "q": "フロントエンドエンジニアからでも転職可能？", "a": "可能ですが、バックエンドやDB操作の経験がある方が有利です。フロントエンド経験者はデータ可視化（D3.js等）の経験を強みにできます。" },
+      { "q": "Pythonの経験がなくても大丈夫？", "a": "プログラミング経験があれば、Pythonは1-2週間で基礎を習得できます。JavaScript/Ruby等からの移行はスムーズです。" },
+      { "q": "年収は上がる？下がる？", "a": "Web系エンジニア（500-700万円）からDSへの転職は、同等以上の年収が期待できます。特にビズリーチ経由だとハイクラス案件に出会えます。" }
+    ]
+  },
+  {
+    "slug": "qualifications",
+    "title": "AIエンジニアに必要な資格5選【2026年版】",
+    "shortTitle": "必要な資格5選",
+    "description": "AIエンジニア・データサイエンティストの転職に有利な資格を厳選して5つ紹介。取得難易度、学習期間、転職への効果を解説。",
+    "heroText": "資格は「スキルの証明」として転職時に有効。ただし、実務力が最優先です。",
+    "targetAudience": "AI転職を検討中のエンジニア全般",
+    "estimatedTime": "資格により1〜3ヶ月",
+    "steps": [
+      {
+        "phase": "資格 1",
+        "title": "G検定（ジェネラリスト検定）",
+        "duration": "1-2ヶ月",
+        "content": "日本ディープラーニング協会（JDLA）が実施するAI・深層学習のリテラシー検定。AIの基礎知識を幅広くカバー。非エンジニアのAI職への転職にも有効。合格率約65%。",
+        "resources": ["JDLA公式テキスト", "『ディープラーニングG検定 公式テキスト』"],
+        "goal": "AI・深層学習の基礎知識を体系的に証明"
+      },
+      {
+        "phase": "資格 2",
+        "title": "E資格（エンジニア資格）",
+        "duration": "2-3ヶ月",
+        "content": "JDLAのエンジニア向け深層学習資格。実装力を証明する高難度資格。JDLA認定プログラムの修了が受験条件。合格率約60%。AIエンジニアとしての実力を証明する最有力資格。",
+        "resources": ["JDLA認定プログラム（必須）", "PyTorch/TensorFlowの実装練習"],
+        "goal": "深層学習の実装力を高いレベルで証明"
+      },
+      {
+        "phase": "資格 3",
+        "title": "AWS Certified Machine Learning - Specialty",
+        "duration": "1-2ヶ月",
+        "content": "AWSの機械学習特化認定資格。SageMaker、データエンジニアリング、MLモデルのデプロイまでカバー。クラウドML基盤構築スキルの証明に。年収プレミアム+50〜100万円のケースも。",
+        "resources": ["AWS公式ドキュメント", "Udemy『AWS ML Specialty対策』", "AWS SageMaker ハンズオン"],
+        "goal": "AWSでのML基盤構築スキルを証明"
+      },
+      {
+        "phase": "資格 4",
+        "title": "統計検定2級",
+        "duration": "1-2ヶ月",
+        "content": "日本統計学会の統計に関する検定。データサイエンティストの基礎スキルである統計学の知識を証明。合格率約35%。DS転職では最も評価される統計系資格。",
+        "resources": ["『統計学入門』（東京大学出版会）", "統計WEB（無料）"],
+        "goal": "統計学の基礎力を証明"
+      },
+      {
+        "phase": "資格 5",
+        "title": "Google Cloud Professional Machine Learning Engineer",
+        "duration": "1-2ヶ月",
+        "content": "GCPのML特化認定資格。Vertex AI、BigQuery ML、TFXなどGCPのMLサービスを網羅。AWS ML Specialtyと並ぶクラウドML認定の最高峰。",
+        "resources": ["Google Cloud公式トレーニング", "Coursera『GCP ML Engineer』"],
+        "goal": "GCPでのML基盤構築スキルを証明"
+      }
+    ],
+    "tips": [
+      "資格だけでは転職できない。Kaggle実績やGitHubポートフォリオとの組み合わせが重要",
+      "最もコスパが高いのは「E資格 + AWS ML Specialty」の組み合わせ",
+      "未経験者はまず「G検定」から。基礎知識の体系化に最適",
+      "資格取得の過程で得た知識を技術ブログ（Qiita/Zenn）で発信すると二重に効果的"
+    ],
+    "recommendedAgents": ["geekly", "levtech-career", "bizreach", "mynavi-it-agent"],
+    "faqs": [
+      { "q": "資格なしでもAI転職できる？", "a": "もちろん可能です。最も重視されるのは実務経験とポートフォリオ。資格はあくまで補助的な要素ですが、書類選考の通過率を上げる効果はあります。" },
+      { "q": "どの資格から取るべき？", "a": "未経験者：G検定→E資格、経験者：AWS ML Specialty or GCP ML Engineer、DS志望：統計検定2級の順がおすすめです。" },
+      { "q": "資格取得にかかる費用は？", "a": "G検定：13,200円、E資格：33,000円（＋認定プログラム費）、AWS/GCP認定：各300USD。書籍や教材を含めると10-30万円程度です。" }
+    ]
+  },
+  {
+    "slug": "future",
+    "title": "AI業界の将来性と市場規模【2026-2030年予測】",
+    "shortTitle": "AI業界の将来性",
+    "description": "AI業界の市場規模、人材需給、将来予測を最新データで解説。転職を検討するエンジニアのための業界分析レポート。",
+    "heroText": "AI市場は2030年に約50兆円規模へ。今が転職の最大のチャンスです。",
+    "targetAudience": "AI業界への転職を検討中の全エンジニア",
+    "estimatedTime": "読了時間 10分",
+    "steps": [
+      {
+        "phase": "データ 1",
+        "title": "国内AI市場規模の推移",
+        "duration": "",
+        "content": "日本のAI市場は2026年に約2.8兆円（前年比25%増）。2030年には5兆円超に達する見通し（総務省予測）。特に生成AI関連市場は年率40%以上で成長中。企業のAI投資額は2024年比で2.5倍に増加しています。",
+        "resources": [],
+        "goal": ""
+      },
+      {
+        "phase": "データ 2",
+        "title": "AI人材の需給ギャップ",
+        "duration": "",
+        "content": "経済産業省の調査によると、2026年時点でAI人材の不足は約12万人。2030年には16万人以上の不足が予測されています。特にLLM/生成AI分野、MLOps分野の人材不足が深刻で、需要に対する供給率はわずか30%程度です。",
+        "resources": [],
+        "goal": ""
+      },
+      {
+        "phase": "データ 3",
+        "title": "成長が期待される分野",
+        "duration": "",
+        "content": "1. 生成AI / LLM（年率40%+）：企業の社内AI導入が本格化。2. MLOps / AI基盤（年率22%）：AI運用の自動化需要。3. エッジAI（年率18%）：IoT×AIの需要拡大。4. AI × ヘルスケア（年率30%）：医療AI・創薬AI。5. 自動運転 / ロボティクス（年率15%）：自律型システム。",
+        "resources": [],
+        "goal": ""
+      },
+      {
+        "phase": "データ 4",
+        "title": "年収トレンド",
+        "duration": "",
+        "content": "AI関連職種の平均年収は一般エンジニアの1.3〜1.8倍。特にLLMエンジニアは平均900万円と最高水準。今後もAI人材の希少性により、年収プレミアムは維持される見通しです。外資系企業では年収2,000万円超のポジションも増加中。",
+        "resources": [],
+        "goal": ""
+      },
+      {
+        "phase": "データ 5",
+        "title": "転職市場の見通し",
+        "duration": "",
+        "content": "2026-2030年はAI人材にとって「売り手市場」が続く見通し。未経験からの参入も2026年が最後のチャンスとも言われています。理由は、今後はAI基礎スキルの保有者が増え、差別化のハードルが上がるためです。今動くことが最大のアドバンテージになります。",
+        "resources": [],
+        "goal": ""
+      }
+    ],
+    "tips": [
+      "AI人材の不足は構造的な問題であり、少なくとも2030年までは解消しない見通し",
+      "生成AI/LLM分野は特に人材不足が深刻。今から参入すれば先行者利益を得られる",
+      "大手企業のDX推進部門は、AI経験2-3年の人材を年収800万円以上で積極採用中",
+      "AI×業界知識（金融、医療、製造）のクロスドメイン人材はさらに希少で高年収"
+    ],
+    "recommendedAgents": ["geekly", "levtech-career", "symbiorise", "bizreach"],
+    "faqs": [
+      { "q": "AIに仕事を奪われることはない？", "a": "AIエンジニア自身の仕事がAIに代替される可能性は低いです。AIの開発・運用・改善には人間の判断が不可欠であり、むしろAIの進化に伴って需要が増加しています。" },
+      { "q": "AI業界はバブル？", "a": "短期的な過熱はありますが、企業のAI投資は長期的なトレンドです。インターネットの普及と同様、AIは社会インフラとして定着していくと予測されています。" },
+      { "q": "今から転職しても遅くない？", "a": "2026年はまだ十分に間に合います。むしろ、生成AI/LLM分野は2023年に本格化したばかりで、全員がほぼ同じスタートラインです。" }
+    ]
+  }
+]

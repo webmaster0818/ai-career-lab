@@ -1,0 +1,154 @@
+[
+  {
+    "slug": "python",
+    "title": "Python / scikit-learn",
+    "subtitle": "データ分析・ML基礎の必須スキル",
+    "color": "#3776AB",
+    "icon": "PY",
+    "description": "Pythonはデータサイエンス・機械学習の事実上の標準言語。scikit-learn、Pandas、NumPyなどのエコシステムが充実しており、AI・ML分野への入り口として最も広く使われています。",
+    "marketOverview": "Python関連のAI求人は全体の約85%を占め、最も需要の高いスキルです。未経験からの転職でも、Pythonの基礎力があれば多くの企業でポテンシャル採用の対象になります。",
+    "avgSalary": 680,
+    "salaryRange": "400〜1,200万円",
+    "jobCount": "15,000件+",
+    "demandTrend": "安定的に高い",
+    "keyLibraries": [
+      { "name": "scikit-learn", "desc": "機械学習の定番ライブラリ。分類・回帰・クラスタリングなど" },
+      { "name": "Pandas", "desc": "データ操作・分析。DataFrameによる構造化データ処理" },
+      { "name": "NumPy", "desc": "数値計算。行列演算・線形代数の基盤" },
+      { "name": "Matplotlib / Seaborn", "desc": "データ可視化。グラフ作成・統計プロット" },
+      { "name": "Jupyter Notebook", "desc": "対話的な開発環境。データ分析・プロトタイピング" }
+    ],
+    "careerPaths": [
+      "データアナリスト → Python基礎で入門",
+      "データサイエンティスト → scikit-learn + 統計",
+      "MLエンジニア → Python + フレームワーク + クラウド",
+      "AIエンジニア → Python + 深層学習 + LLM"
+    ],
+    "recommendedAgents": ["levtech-career", "mynavi-it-agent", "doda"],
+    "studyRoadmap": [
+      { "step": 1, "title": "Python基礎", "duration": "1-2ヶ月", "desc": "変数・関数・クラス・データ構造。Progateやpaiza等で学習" },
+      { "step": 2, "title": "Pandas / NumPy", "duration": "1ヶ月", "desc": "データ操作・数値計算の基礎。Kaggle Learnが最適" },
+      { "step": 3, "title": "scikit-learn", "duration": "1-2ヶ月", "desc": "機械学習の基礎実装。分類・回帰・特徴量エンジニアリング" },
+      { "step": 4, "title": "実践（Kaggle）", "duration": "2-3ヶ月", "desc": "Kaggleコンペで実践力を証明。ポートフォリオにも" }
+    ],
+    "faqs": [
+      { "q": "Pythonだけで転職できる？", "a": "Python + SQL + 統計基礎があれば、データアナリストとしての転職は十分可能です。AI・MLエンジニアを目指す場合は、さらにscikit-learn/PyTorch等のフレームワーク知識が必要です。" },
+      { "q": "R言語とPythonどちらを学ぶべき？", "a": "転職市場ではPythonが圧倒的に有利です。R言語はアカデミアや統計分析に強みがありますが、求人数ではPythonが約5倍。迷ったらPythonを選びましょう。" },
+      { "q": "どのくらいのレベルが求められる？", "a": "Pandas/NumPyでデータ処理ができる、scikit-learnでモデルを構築できる、Kaggleで銅メダル以上の実績があれば、ポテンシャル採用の基準は満たせます。" }
+    ]
+  },
+  {
+    "slug": "pytorch",
+    "title": "PyTorch / TensorFlow",
+    "subtitle": "深層学習・モデル開発の中核スキル",
+    "color": "#EE4C2C",
+    "icon": "DL",
+    "description": "PyTorchとTensorFlowは深層学習の2大フレームワーク。画像認識・自然言語処理・生成AIなど、最先端のAIモデル開発に不可欠。特にPyTorchは研究・スタートアップで主流。",
+    "marketOverview": "深層学習エンジニアの求人は前年比30%増。特にPyTorch経験者への需要が急増しており、TensorFlowの約1.5倍の求人数があります。LLM開発の多くがPyTorchベースのため、今後もPyTorch優位が続く見通しです。",
+    "avgSalary": 820,
+    "salaryRange": "550〜1,500万円",
+    "jobCount": "8,000件+",
+    "demandTrend": "急上昇中",
+    "keyLibraries": [
+      { "name": "PyTorch", "desc": "Facebook(Meta)開発。動的計算グラフで直感的。研究・スタートアップで主流" },
+      { "name": "TensorFlow", "desc": "Google開発。大規模本番運用に強い。TFLite/TFJSでエッジ展開も" },
+      { "name": "Hugging Face Transformers", "desc": "事前学習モデルのハブ。BERT/GPT系モデルの利用が簡単に" },
+      { "name": "Lightning", "desc": "PyTorch用の高レベルフレームワーク。学習ループの抽象化" },
+      { "name": "ONNX", "desc": "モデルの相互運用フォーマット。フレームワーク間の変換" }
+    ],
+    "careerPaths": [
+      "研究開発（R&D）→ 論文実装・新モデル開発",
+      "MLエンジニア → モデルの本番化・最適化",
+      "AIエンジニア → プロダクトへのAI組み込み",
+      "LLMエンジニア → 大規模言語モデルの開発・ファインチューニング"
+    ],
+    "recommendedAgents": ["geekly", "levtech-career", "symbiorise"],
+    "studyRoadmap": [
+      { "step": 1, "title": "Python + ML基礎", "duration": "2-3ヶ月", "desc": "scikit-learnレベルの機械学習を先に習得" },
+      { "step": 2, "title": "深層学習の理論", "duration": "1-2ヶ月", "desc": "ニューラルネットワーク・誤差逆伝播・最適化の基礎" },
+      { "step": 3, "title": "PyTorch実装", "duration": "2-3ヶ月", "desc": "CNN/RNN/Transformerの実装。公式チュートリアルが最適" },
+      { "step": 4, "title": "論文実装 / Kaggle", "duration": "3ヶ月〜", "desc": "最新論文の実装やKaggle上位入賞でスキルを証明" }
+    ],
+    "faqs": [
+      { "q": "PyTorchとTensorFlowどちらを学ぶべき？", "a": "2026年現在、PyTorchを先に学ぶことを強くおすすめします。研究・スタートアップ・LLM開発のほとんどがPyTorchベース。求人数でもPyTorchがTFの約1.5倍です。" },
+      { "q": "深層学習の求人はどんな企業が多い？", "a": "AI系スタートアップ、GAFAMの日本法人、大手企業のR&D部門が中心です。GeeklyやSymbiroseがこれらの企業とのコネクションを持っています。" },
+      { "q": "GPU環境はどう用意する？", "a": "Google ColabのGPU（無料枠あり）やKaggle Notebooks（無料GPU）で学習を始められます。本格的な実験にはAWS/GCPのGPUインスタンスを使うのが一般的です。" }
+    ]
+  },
+  {
+    "slug": "llm",
+    "title": "LLM / RAG / LangChain",
+    "subtitle": "生成AI・LLMアプリ開発の最先端",
+    "color": "#8B5CF6",
+    "icon": "LM",
+    "description": "大規模言語モデル（LLM）を活用したアプリケーション開発は、2024-2026年で最も成長している技術領域。RAG、プロンプトエンジニアリング、ファインチューニングなどのスキルが求められています。",
+    "marketOverview": "LLM関連求人は2025年比で約200%増と爆発的に増加中。特にRAG（検索拡張生成）を使った社内システム構築やChatbot開発の需要が急増。エンジニアの供給が全く追いついておらず、年収プレミアムが発生しています。",
+    "avgSalary": 900,
+    "salaryRange": "600〜1,800万円",
+    "jobCount": "5,000件+",
+    "demandTrend": "爆発的に増加中",
+    "keyLibraries": [
+      { "name": "LangChain", "desc": "LLMアプリ開発フレームワーク。RAG・エージェント構築の定番" },
+      { "name": "LlamaIndex", "desc": "データとLLMの橋渡し。ドキュメントのインデックス化・検索" },
+      { "name": "OpenAI API", "desc": "GPT-4/Claude等のLLM API利用。プロンプト設計・Function Calling" },
+      { "name": "Hugging Face", "desc": "オープンソースLLMのハブ。モデルのファインチューニング" },
+      { "name": "Vector DB (Pinecone/Weaviate)", "desc": "ベクトルデータベース。RAGの検索基盤" }
+    ],
+    "careerPaths": [
+      "LLMアプリケーションエンジニア → RAG/Chatbot開発",
+      "プロンプトエンジニア → プロンプト設計・最適化",
+      "LLMインフラエンジニア → モデルサービング・推論最適化",
+      "AIプロダクトマネージャー → LLMプロダクトの企画・推進"
+    ],
+    "recommendedAgents": ["geekly", "symbiorise", "willof-tech"],
+    "studyRoadmap": [
+      { "step": 1, "title": "LLM API入門", "duration": "2-4週間", "desc": "OpenAI API / Claude APIでの基本操作。プロンプトエンジニアリング" },
+      { "step": 2, "title": "LangChain / RAG基礎", "duration": "1-2ヶ月", "desc": "RAGパイプラインの構築。ドキュメント検索 + LLM回答生成" },
+      { "step": 3, "title": "ベクトルDB / Embedding", "duration": "1ヶ月", "desc": "Embedingの概念とベクトルDBの運用。Pinecone/Weaviate" },
+      { "step": 4, "title": "ファインチューニング", "duration": "2-3ヶ月", "desc": "LoRA/QLoRAによるモデルカスタマイズ。Hugging Face活用" }
+    ],
+    "faqs": [
+      { "q": "LLMエンジニアの年収が高いのはなぜ？", "a": "需要に対して供給が圧倒的に不足しているためです。LLM関連スキルは2023年以降に急速に求められるようになった新しい分野で、経験者が非常に少ない。そのため年収プレミアムが発生しています。" },
+      { "q": "Web開発経験からLLMエンジニアになれる？", "a": "非常に相性が良いキャリアパスです。API設計・バックエンド開発の経験はLLMアプリ開発にそのまま活かせます。Python + LangChainを学べば、比較的短期間で転職可能です。" },
+      { "q": "LLMの技術は今後も需要がある？", "a": "2026年時点で、LLMの企業導入はまだ初期段階です。今後5-10年は社内データとLLMを組み合わせたシステム構築の需要が続くと予測されています。今が参入の好機です。" }
+    ]
+  },
+  {
+    "slug": "aws-ml",
+    "title": "AWS / GCP ML Services",
+    "subtitle": "クラウドML基盤・MLOps構築",
+    "color": "#FF9900",
+    "icon": "CL",
+    "description": "AWS SageMaker、Google Vertex AI、Azure MLなどのクラウドMLサービスを使ったML基盤の構築・運用スキル。企業のAI導入に不可欠なインフラ面を担う。",
+    "marketOverview": "企業のAI導入が進む中、クラウドML基盤を構築・運用できるエンジニアの需要が急増。AWS/GCPの認定資格保持者には年収プレミアムが付くケースも多い。特にMLOps文脈でのクラウドスキルが重視されています。",
+    "avgSalary": 780,
+    "salaryRange": "550〜1,400万円",
+    "jobCount": "7,000件+",
+    "demandTrend": "急上昇中",
+    "keyLibraries": [
+      { "name": "AWS SageMaker", "desc": "AWSのMLプラットフォーム。学習・デプロイ・モニタリングの一気通貫" },
+      { "name": "Google Vertex AI", "desc": "GCPのMLプラットフォーム。AutoMLからカスタムモデルまで" },
+      { "name": "AWS Bedrock", "desc": "AWSのLLMサービス。Claude/Titan等の基盤モデルをAPI利用" },
+      { "name": "Terraform", "desc": "インフラのコード管理（IaC）。ML環境の再現性確保" },
+      { "name": "MLflow", "desc": "ML実験管理。モデルの追跡・バージョニング・レジストリ" }
+    ],
+    "careerPaths": [
+      "クラウドMLエンジニア → SageMaker/Vertex AIの設計・構築",
+      "MLOpsエンジニア → ML CI/CD・モニタリング基盤",
+      "MLプラットフォームエンジニア → 社内ML基盤の構築・運用",
+      "ソリューションアーキテクト → 顧客向けML設計支援"
+    ],
+    "recommendedAgents": ["willof-tech", "bizreach", "levtech-career"],
+    "studyRoadmap": [
+      { "step": 1, "title": "クラウド基礎", "duration": "1-2ヶ月", "desc": "AWS/GCPの基本サービス（EC2/S3/IAM等）。無料枠で実践" },
+      { "step": 2, "title": "コンテナ技術", "duration": "1ヶ月", "desc": "Docker/Kubernetes。MLモデルのコンテナ化" },
+      { "step": 3, "title": "ML基盤サービス", "duration": "2-3ヶ月", "desc": "SageMaker/Vertex AIでの学習・デプロイパイプライン構築" },
+      { "step": 4, "title": "認定資格", "duration": "1-2ヶ月", "desc": "AWS ML Specialty/GCP Professional ML Engineerの取得" }
+    ],
+    "faqs": [
+      { "q": "AWSとGCPどちらを学ぶべき？", "a": "求人数ではAWSが約60%のシェアで優位です。ただしML領域に限ればGCP（Vertex AI、BigQuery ML）も非常に強い。まずAWSを押さえ、余裕があればGCPも学ぶのがベストです。" },
+      { "q": "インフラエンジニアからの転職は有利？", "a": "非常に有利です。AWS/GCPの基礎知識、Docker/K8s、ネットワーク・セキュリティの知識はそのまま活かせます。MLの基礎知識を追加するだけで即戦力です。" },
+      { "q": "認定資格は転職に有利？", "a": "AWS ML SpecialtyやGCP Professional ML Engineerの認定は、書類選考の通過率を上げる効果があります。特に年収600万円以上の求人では資格保持者を優遇する企業が増えています。" }
+    ]
+  }
+]
