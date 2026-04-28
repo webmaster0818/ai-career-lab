@@ -38,4 +38,29 @@
   <url><loc>https://ai-career-lab-deploy.pages.dev/interview/portfolio/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://ai-career-lab-deploy.pages.dev/interview/kaggle/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://ai-career-lab-deploy.pages.dev/interview/skill-map/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <!-- Compare pages -->
+  <url><loc>https://ai-career-lab-deploy.pages.dev/compare/geekly-vs-levtech/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/compare/specialized-vs-general/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/compare/agent-fees/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/compare/support-quality/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/compare/remote-jobs/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <!-- Beginner pages -->
+  <url><loc>https://ai-career-lab-deploy.pages.dev/beginner/first-step/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/beginner/study-plan/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/beginner/portfolio-examples/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <!-- Article pages -->
+  <url><loc>https://ai-career-lab-deploy.pages.dev/article/ai-engineer-future/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/article/ds-demand/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/article/ai-engineer-vs-se/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/article/llm-engineer-career/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/article/prompt-engineer/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/article/ai-startup-transfer/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/article/foreign-ai-company/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/article/ai-side-job/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/article/ai-freelance/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/article/career-change-30s/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/article/career-change-40s/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/article/ai-salary-negotiation/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/article/ai-interview-prep/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/article/ml-certification-guide/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
 </urlset>

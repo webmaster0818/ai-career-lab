@@ -117,6 +117,40 @@ export default function SiteHeader() {
               <p className="text-xs text-text-muted font-medium tracking-wider mb-2">年収データ</p>
               <Link href="/salary/ranking/" onClick={() => setOpen(false)} className="block py-2.5 px-3 text-text-primary hover:bg-surface-alt rounded-lg">職種別 年収ランキング</Link>
               <Link href="/salary/by-tech/" onClick={() => setOpen(false)} className="block py-2.5 px-3 text-text-primary hover:bg-surface-alt rounded-lg">技術スタック別 年収比較</Link>
+
+              <div className="border-t border-border my-3" />
+              <p className="text-xs text-text-muted font-medium tracking-wider mb-2">比較</p>
+              {[
+                { name: "Geekly vs レバテック比較", slug: "geekly-vs-levtech" },
+                { name: "特化型 vs 総合型", slug: "specialized-vs-general" },
+                { name: "手数料・マージン比較", slug: "agent-fees" },
+                { name: "サポート品質ランキング", slug: "support-quality" },
+                { name: "リモート求人比較", slug: "remote-jobs" },
+              ].map((c) => (
+                <Link key={c.slug} href={`/compare/${c.slug}/`} onClick={() => setOpen(false)} className="block py-2.5 px-3 text-text-primary hover:bg-surface-alt rounded-lg">{c.name}</Link>
+              ))}
+
+              <div className="border-t border-border my-3" />
+              <p className="text-xs text-text-muted font-medium tracking-wider mb-2">未経験向け</p>
+              {[
+                { name: "AI転職の第一歩ガイド", slug: "first-step" },
+                { name: "独学6ヶ月学習プラン", slug: "study-plan" },
+                { name: "ポートフォリオ実例集", slug: "portfolio-examples" },
+              ].map((b) => (
+                <Link key={b.slug} href={`/beginner/${b.slug}/`} onClick={() => setOpen(false)} className="block py-2.5 px-3 text-text-primary hover:bg-surface-alt rounded-lg">{b.name}</Link>
+              ))}
+
+              <div className="border-t border-border my-3" />
+              <p className="text-xs text-text-muted font-medium tracking-wider mb-2">コラム</p>
+              {[
+                { name: "AIエンジニアの将来性", slug: "ai-engineer-future" },
+                { name: "LLMエンジニアとは？", slug: "llm-engineer-career" },
+                { name: "30代からのAI転職", slug: "career-change-30s" },
+                { name: "AI転職の年収交渉術", slug: "ai-salary-negotiation" },
+                { name: "AI企業の面接対策", slug: "ai-interview-prep" },
+              ].map((a) => (
+                <Link key={a.slug} href={`/article/${a.slug}/`} onClick={() => setOpen(false)} className="block py-2.5 px-3 text-text-primary hover:bg-surface-alt rounded-lg">{a.name}</Link>
+              ))}
             </nav>
           </div>
         )}

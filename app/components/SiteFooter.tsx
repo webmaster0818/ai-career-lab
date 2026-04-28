@@ -45,6 +45,18 @@ export default function SiteFooter() {
               <li><Link href="/guide/future/" className="hover:text-white transition-colors">AI業界の将来性</Link></li>
             </ul>
           </div>
+          <div>
+            <h4 className="font-bold text-white mb-3">比較・コラム</h4>
+            <ul className="space-y-2 text-sm">
+              <li><Link href="/compare/geekly-vs-levtech/" className="hover:text-white transition-colors">Geekly vs レバテック比較</Link></li>
+              <li><Link href="/compare/specialized-vs-general/" className="hover:text-white transition-colors">特化型 vs 総合型</Link></li>
+              <li><Link href="/beginner/first-step/" className="hover:text-white transition-colors">AI転職の第一歩</Link></li>
+              <li><Link href="/beginner/study-plan/" className="hover:text-white transition-colors">6ヶ月学習プラン</Link></li>
+              <li><Link href="/article/ai-engineer-future/" className="hover:text-white transition-colors">AIエンジニアの将来性</Link></li>
+              <li><Link href="/article/llm-engineer-career/" className="hover:text-white transition-colors">LLMエンジニアとは</Link></li>
+              <li><Link href="/article/career-change-30s/" className="hover:text-white transition-colors">30代からのAI転職</Link></li>
+            </ul>
+          </div>
         </div>
         <div className="border-t border-white/10 pt-8 text-center text-xs">
           <p className="mb-2">
