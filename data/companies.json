@@ -1,0 +1,250 @@
+[
+  {
+    "slug": "google-japan",
+    "title": "Google日本のAIエンジニア採用【年収・選考・求められるスキル】",
+    "description": "Google日本法人はTensorFlow・JAXを中心としたAI研究開発拠点として機能しており、Google DeepMindやGoogle Brainの研究成果を製品に落とし込む実装チームが多数在籍。検索・翻訳・Bard/Gemini開発に関わる世界水準のAIエンジニアが集結している。",
+    "avgSalary": 1800,
+    "salaryRange": "1,200〜2,500万円",
+    "aiTeamSize": "500+",
+    "techStack": "TensorFlow, JAX, Python, Go",
+    "interviewProcess": "コーディング面接→システムデザイン→チームフィット",
+    "workStyle": "ハイブリッド（週2〜3日出社）",
+    "difficulty": "非常に高い",
+    "pros": ["世界最高水準の技術環境", "充実した研究リソース・論文発表機会", "高い年収水準と福利厚生", "Google社内の最先端ツール・インフラを利用可能"],
+    "cons": ["採用難易度が極めて高い", "英語能力が必須", "成果主義で競争が激しい", "プロセスが長期化しやすい（3〜6ヶ月）"],
+    "positions": ["AIエンジニア（Research/Applied）", "MLエンジニア", "データサイエンティスト", "Prompt Engineer", "ML Platform Engineer"],
+    "recommendedAgents": ["bizreach", "levtech-career", "willof-tech"],
+    "faqs": [
+      {
+        "q": "Googleの採用難易度はどのくらいですか？",
+        "a": "Googleの採用倍率は数百倍ともいわれており、世界でも最難関の部類です。コーディング面接（LeetCode Hard相当）、システムデザイン、チームフィット面接を全てクリアする必要があります。"
+      },
+      {
+        "q": "Google日本法人への転職で最も必要なスキルは？",
+        "a": "Python/C++の高い実装力、機械学習の理論的理解（論文読解）、大規模分散システムの設計力、英語でのコミュニケーション能力が求められます。"
+      },
+      {
+        "q": "転職エージェント経由でGoogle日本法人に応募できますか？",
+        "a": "はい、ビズリーチやレバテックキャリアを通じた応募実績があります。ただし公式キャリアサイトからの直接応募も有効です。"
+      }
+    ]
+  },
+  {
+    "slug": "amazon-japan",
+    "title": "Amazon JapanのAI・ML職【年収・チーム・選考プロセス】",
+    "description": "Amazon Japanは日本最大のECプラットフォームとAWSを擁し、レコメンデーション・需要予測・物流最適化・Alexa日本語対応など多岐にわたるAI/ML活用を推進している。AWSのAIサービス開発チームも東京拠点に存在し、世界市場向けプロダクト開発に携わることができる。",
+    "avgSalary": 1500,
+    "salaryRange": "1,000〜2,200万円",
+    "aiTeamSize": "300+",
+    "techStack": "SageMaker, PyTorch, Java, Python",
+    "interviewProcess": "電話スクリーニング→オンサイト4〜5回（STAR形式）",
+    "workStyle": "ハイブリッド（週3日以上出社）",
+    "difficulty": "非常に高い",
+    "pros": ["AWSの最新AIサービスを最前線で開発", "リーダーシッププリンシプルに基づく明確な評価軸", "グローバル規模のトラフィック・データで実験できる", "ストックオプション（RSU）が充実"],
+    "cons": ["Up or Out文化で競争が激しい", "業務量が多く残業が発生しやすい", "STAR形式の面接準備に時間がかかる", "ジョブチェンジが社内でも難しい"],
+    "positions": ["Applied Scientist", "Machine Learning Engineer", "Data Engineer", "Alexa AI Engineer", "AWS ML Solutions Architect"],
+    "recommendedAgents": ["bizreach", "levtech-career", "geekly"],
+    "faqs": [
+      {
+        "q": "AmazonのAI職の面接形式を教えてください。",
+        "a": "「リーダーシッププリンシプル」に基づくBehavioural Interview（STAR形式）が特徴です。技術面接に加え、リーダーシップ原則に沿った行動事例を複数準備する必要があります。"
+      },
+      {
+        "q": "Amazon JapanのAI職の年収水準は？",
+        "a": "基本給＋RSU（制限付き株式）＋ボーナスを合わせた年収は1,000〜2,200万円程度です。シニアレベルになると1,800万円超が視野に入ります。"
+      },
+      {
+        "q": "AWS認定資格は転職に有利ですか？",
+        "a": "AWS Certified Machine Learning Specialtyなどの資格はプラス評価されます。ただし実務での成果・コード品質の方が重視されます。"
+      }
+    ]
+  },
+  {
+    "slug": "mercari",
+    "title": "メルカリのAIエンジニア採用【ML活用事例と年収】",
+    "description": "メルカリはフリマアプリで培った数億件の取引データを活用し、不正検知・価格推定・カテゴリ自動分類・画像認識・レコメンデーションなど多岐にわたるML活用を展開。機械学習基盤チームや独自の信頼安全チームが活発に研究・開発を行っており、論文発表も積極的。",
+    "avgSalary": 1000,
+    "salaryRange": "700〜1,500万円",
+    "aiTeamSize": "100+",
+    "techStack": "PyTorch, Go, GCP",
+    "interviewProcess": "書類→コーディング試験→技術面接2回→マネージャー面接",
+    "workStyle": "リモートファースト（出社任意）",
+    "difficulty": "高い",
+    "pros": ["大規模実データでML実験ができる環境", "リモートファーストで働きやすい", "論文発表・OSSコントリビュートを奨励", "外国籍エンジニアが多く英語環境"],
+    "cons": ["急成長による組織変化が多い", "国際的な競争環境でベンチマークが高い", "スタートアップ的な文化で安定感はやや低い", "米国・インドのチームとの時差協調が必要"],
+    "positions": ["MLエンジニア", "データサイエンティスト", "ML Platform Engineer", "信頼・安全チームAIエンジニア"],
+    "recommendedAgents": ["geekly", "levtech-career", "symbiorise"],
+    "faqs": [
+      {
+        "q": "メルカリのMLエンジニアとして何を開発しますか？",
+        "a": "フリマアプリの不正検知、商品価格推定、カテゴリ自動分類、画像検索、レコメンデーションシステムなどが主な開発領域です。Go＋GCPの環境でMLモデルを本番運用します。"
+      },
+      {
+        "q": "メルカリへの転職難易度は？",
+        "a": "コーディング試験（LeetCode中級〜上級）と技術面接が必須です。論文読解能力・実験設計力・プロダクト思考も重視されます。難易度は高めですが外資系大手より参入しやすいです。"
+      }
+    ]
+  },
+  {
+    "slug": "cyberagent",
+    "title": "サイバーエージェントのAI研究所【年収・研究テーマ】",
+    "description": "サイバーエージェントはAI Lab・AI事業本部・MLOpsチームを擁し、日本最大級のAI研究開発組織を持つ国内テック企業の一つ。自然言語処理・画像生成・広告最適化・ゲームAIなど幅広い研究テーマを扱い、研究者がAbema・Ameba・広告プラットフォームの開発に直接携わることができる。",
+    "avgSalary": 900,
+    "salaryRange": "600〜1,400万円",
+    "aiTeamSize": "200+",
+    "techStack": "PyTorch, Python, AWS",
+    "interviewProcess": "書類→技術課題→技術面接→役員面接",
+    "workStyle": "ハイブリッド（渋谷本社中心）",
+    "difficulty": "高い",
+    "pros": ["研究→プロダクト応用のサイクルが速い", "大量のユーザーデータで実験できる", "AI Lab研究員として論文発表が可能", "学術・産業の両面でキャリアを積める"],
+    "cons": ["年収は外資系に比べ低め", "広告事業への貢献が求められる場合も", "急成長による組織変化", "東京渋谷勤務が基本"],
+    "positions": ["AIエンジニア", "研究員（AI Lab）", "MLOpsエンジニア", "データサイエンティスト", "広告テクノロジーエンジニア"],
+    "recommendedAgents": ["geekly", "symbiorise", "levtech-career"],
+    "faqs": [
+      {
+        "q": "サイバーエージェントのAI Labとは何ですか？",
+        "a": "AI Labはサイバーエージェントの研究機関で、NLP・CV・強化学習・広告最適化などの基礎研究を行っています。国際会議への論文投稿も積極的に支援しています。"
+      },
+      {
+        "q": "サイバーエージェントAIエンジニアの年収水準は？",
+        "a": "経験・スキルにより600〜1,400万円と幅があります。研究員クラスは1,000万円超も可能です。インターンから正社員登用のパスも存在します。"
+      }
+    ]
+  },
+  {
+    "slug": "recruit",
+    "title": "リクルートのデータサイエンティスト採用",
+    "description": "リクルートはHotpepper・Suumo・Indeed・Airレジなど50以上のサービスを持ち、国内最大規模の行動データ・求人データを保有。データサイエンティストが各事業部に密接に関わり、レコメンデーション・需要予測・マッチングアルゴリズムの開発に従事。R&Dセンターでは基礎研究も実施。",
+    "avgSalary": 950,
+    "salaryRange": "600〜1,400万円",
+    "aiTeamSize": "150+",
+    "techStack": "Python, Spark, GCP",
+    "interviewProcess": "書類→統計・機械学習筆記試験→ケーススタディ→技術面接→人事面接",
+    "workStyle": "ハイブリッド（週2〜3日出社）",
+    "difficulty": "高い",
+    "pros": ["日本最大規模の行動データを扱える", "ビジネスインパクトが直接見える環境", "多様なサービス群でキャリア展開しやすい", "研究成果を実プロダクトに反映できる"],
+    "cons": ["統計・機械学習の知識を高いレベルで要求される", "事業会社のため研究より実装・改善が優先される場合も", "採用難易度が高い"],
+    "positions": ["データサイエンティスト", "機械学習エンジニア", "アナリスト", "R&D研究員"],
+    "recommendedAgents": ["bizreach", "doda", "levtech-career"],
+    "faqs": [
+      {
+        "q": "リクルートのデータサイエンティスト選考で求められるスキルは？",
+        "a": "統計学・機械学習の理論的理解、Python（pandas/scikit-learn）の実装力、SQL、ビジネス課題を数値で解く力が問われます。ケーススタディ面接が特徴的です。"
+      }
+    ]
+  },
+  {
+    "slug": "ntt-data",
+    "title": "NTTデータのAI部門【大手SIerのAI戦略】",
+    "description": "NTTデータは日本最大のSIerとして金融・官公庁・製造・医療など幅広い業界のDX・AI導入を推進。AI・データ活用ソリューション部門では顧客のデータ基盤構築からMLモデル開発・運用まで一貫して支援し、安定した案件と社会的インパクトの大きいプロジェクトに従事できる。",
+    "avgSalary": 800,
+    "salaryRange": "500〜1,200万円",
+    "aiTeamSize": "300+",
+    "techStack": "Python, TensorFlow, Azure",
+    "interviewProcess": "書類→SPI→技術面接→人事面接",
+    "workStyle": "ハイブリッド（客先常駐あり）",
+    "difficulty": "中程度",
+    "pros": ["大規模・社会インパクトの大きいプロジェクト", "安定した経営基盤と福利厚生", "多業界のドメイン知識を習得できる", "AIコンサルからエンジニアまで幅広いキャリア"],
+    "cons": ["年収は外資・スタートアップに比べ低め", "組織が大きく意思決定が遅い場合も", "最先端技術の採用に保守的なことがある", "客先常駐でプロジェクトによる差が大きい"],
+    "positions": ["AIエンジニア", "データサイエンティスト", "AIコンサルタント", "MLOpsエンジニア", "データエンジニア"],
+    "recommendedAgents": ["recruit-agent", "doda", "mynavi-it-agent"],
+    "faqs": [
+      {
+        "q": "NTTデータのAI部門はどのような案件を扱っていますか？",
+        "a": "金融機関の不正検知・信用スコアリング、官公庁の予測分析、製造業の予知保全、医療AIなど幅広い業界のAI導入支援を行っています。"
+      }
+    ]
+  },
+  {
+    "slug": "dena",
+    "title": "DeNAのAIエンジニア【ゲーム×AIの最前線】",
+    "description": "DeNAはゲーム・スポーツ・ヘルスケア・Eコマースの各事業でAIを活用。ゲームAI（レベルデザイン自動化・対戦AI）、野球データ分析（横浜DeNAベイスターズ）、健康管理アプリのパーソナライゼーションなど多岐にわたるAI開発に取り組んでいる。AI System部門が全社横断的なML基盤を担う。",
+    "avgSalary": 900,
+    "salaryRange": "600〜1,300万円",
+    "aiTeamSize": "80+",
+    "techStack": "PyTorch, Python, AWS",
+    "interviewProcess": "書類→コーディング試験→技術面接→最終面接",
+    "workStyle": "ハイブリッド（渋谷）",
+    "difficulty": "高い",
+    "pros": ["ゲーム・スポーツなどユニークなドメインでのAI開発", "スポーツデータ分析の第一線に携わる機会", "チャレンジングな技術課題が多い", "社内に優秀なエンジニアが多い"],
+    "cons": ["事業の浮き沈みによる組織変化リスク", "年収は大手外資より低め", "ゲーム事業依存の側面がある"],
+    "positions": ["AIエンジニア", "ゲームAI開発エンジニア", "スポーツデータサイエンティスト", "MLOpsエンジニア"],
+    "recommendedAgents": ["geekly", "levtech-career", "symbiorise"],
+    "faqs": [
+      {
+        "q": "DeNAのゲームAIとはどのようなものですか？",
+        "a": "ゲームバランス自動調整、NPCの行動AI、プレイヤー行動予測、チートユーザー検知などに機械学習を活用しています。強化学習の知識が特に評価されます。"
+      }
+    ]
+  },
+  {
+    "slug": "line",
+    "title": "LINEのAI開発チーム【NLP・音声認識の最前線】",
+    "description": "LINEはLINEアプリの自然言語処理・翻訳・音声認識・CLOVAアシスタント開発などAI活用が非常に広範囲にわたる。LY Corporation（LINE・ヤフー統合会社）として国内最大のメッセージングプラットフォームのデータを活用したNLP研究・応用が活発で、日本語特化のLLM開発にも注力している。",
+    "avgSalary": 950,
+    "salaryRange": "650〜1,400万円",
+    "aiTeamSize": "200+",
+    "techStack": "PyTorch, Python, Kubernetes",
+    "interviewProcess": "書類→技術課題→技術面接2回→部門長面接",
+    "workStyle": "ハイブリッド（新宿・渋谷）",
+    "difficulty": "高い",
+    "pros": ["日本最大のメッセージングデータを使ったNLP研究", "日本語LLM開発の最前線", "国際的なAI研究チームとの協業", "CLOVAブランドのAI製品開発"],
+    "cons": ["LINE・ヤフー統合による組織変化期", "韓国本社との調整が必要な場合も", "競争が激しい技術環境"],
+    "positions": ["NLPエンジニア", "音声認識エンジニア", "MLエンジニア", "LLM開発エンジニア", "データサイエンティスト"],
+    "recommendedAgents": ["levtech-career", "symbiorise", "geekly"],
+    "faqs": [
+      {
+        "q": "LINEのAIエンジニアはどのような技術を使いますか？",
+        "a": "Transformerベースのモデル（BERT/GPT系）、PyTorch、Kubernetes上でのMLOpsが主力です。日本語NLPの研究成果をCLOVA・LINE翻訳に実装します。"
+      }
+    ]
+  },
+  {
+    "slug": "pksha",
+    "title": "PKSHA TechnologyのAIエンジニア【純AI企業の魅力】",
+    "description": "PKSHA Technologyは自然言語処理・機械学習を軸とした純粋なAI企業。チャットボット・FAQ自動化・金融AI・製造AIなど多業種向けのSaaSプロダクトを展開し、東大発AIベンチャーとして高い研究水準を持つ。アルゴリズムとソフトウェアの融合を掲げ、研究と実装の両立ができる環境が魅力。",
+    "avgSalary": 850,
+    "salaryRange": "550〜1,300万円",
+    "aiTeamSize": "150+",
+    "techStack": "PyTorch, Python, AWS",
+    "interviewProcess": "書類→技術課題（コーディング＋ML設計）→技術面接→COO面接",
+    "workStyle": "ハイブリッド（東京）",
+    "difficulty": "高い",
+    "pros": ["純AI企業でAI一本に集中できる", "東大発の高い研究水準", "NLP・機械学習の第一線で活躍できる", "上場企業で経営安定性あり"],
+    "cons": ["企業規模がやや小さいため求人数は限定的", "特定ドメイン（NLP中心）に偏りがある", "外資系と比べ年収は中程度"],
+    "positions": ["AIエンジニア", "NLPエンジニア", "MLエンジニア", "AIプロダクトマネージャー"],
+    "recommendedAgents": ["symbiorise", "geekly", "levtech-career"],
+    "faqs": [
+      {
+        "q": "PKSHA Technologyはどのような企業ですか？",
+        "a": "2012年東大発のAIスタートアップ。自然言語処理・機械学習を活用したSaaSプロダクトを金融・製造・小売などに提供する純粋AI企業です。現在は東証プライム上場。"
+      }
+    ]
+  },
+  {
+    "slug": "pfn",
+    "title": "Preferred NetworksのMLエンジニア【日本最強のAI企業】",
+    "description": "Preferred Networks（PFN）は日本を代表するディープラーニング研究企業。自社開発のMN-Core AIプロセッサ、分散深層学習フレームワークChainer（後継：Optuna等）、ロボティクスAI、創薬AIなど最前線の研究・開発を行う。採用人数は少ないが、日本のAI研究者・エンジニアが最も目指す企業の一つ。",
+    "avgSalary": 1200,
+    "salaryRange": "800〜2,000万円",
+    "aiTeamSize": "200+",
+    "techStack": "PyTorch, Optuna, MN-Core",
+    "interviewProcess": "書類（研究実績重視）→技術面接2〜3回→経営幹部面接",
+    "workStyle": "出社中心（東京・大手町）",
+    "difficulty": "非常に高い",
+    "pros": ["日本最高水準のAI研究環境", "自社開発AIチップ（MN-Core）を使ったエッジAI開発", "世界的なAI研究者と共同研究できる", "創薬・ロボティクスなど最先端応用"],
+    "cons": ["採用人数が極めて少ない", "研究実績（論文・GitHub・競技プログラミング）が必須", "給与は高いが競争も激烈", "出社中心の文化"],
+    "positions": ["MLエンジニア", "研究員（深層学習）", "ロボティクスAIエンジニア", "創薬AIエンジニア", "ハードウェアAIエンジニア"],
+    "recommendedAgents": ["bizreach", "symbiorise", "willof-tech"],
+    "faqs": [
+      {
+        "q": "PFNへの転職に必要なものは何ですか？",
+        "a": "国際会議（NeurIPS/ICML/ICLR等）への論文採択歴、競技プログラミング上位実績（Kaggle GrandMaster等）、または産業界での卓越したML実装実績が求められます。"
+      },
+      {
+        "q": "PFNのOptunaとはどのような技術ですか？",
+        "a": "OptunaはPFNが開発・OSSとして公開しているハイパーパラメータ自動最適化フレームワークです。世界中のMLエンジニアが使用しており、Preferred Networksの技術力を示す代表的な成果物です。"
+      }
+    ]
+  }
+]

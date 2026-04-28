@@ -63,4 +63,37 @@
   <url><loc>https://ai-career-lab-deploy.pages.dev/article/ai-salary-negotiation/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://ai-career-lab-deploy.pages.dev/article/ai-interview-prep/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://ai-career-lab-deploy.pages.dev/article/ml-certification-guide/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <!-- Company pages -->
+  <url><loc>https://ai-career-lab-deploy.pages.dev/company/google-japan/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/company/amazon-japan/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/company/mercari/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/company/cyberagent/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/company/recruit/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/company/ntt-data/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/company/dena/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/company/line/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/company/pksha/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/company/pfn/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <!-- Industry pages -->
+  <url><loc>https://ai-career-lab-deploy.pages.dev/industry/finance/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/industry/healthcare/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/industry/manufacturing/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/industry/advertising/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/industry/ecommerce/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/industry/automotive/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/industry/energy/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/industry/realestate/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/industry/education/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/industry/logistics/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <!-- Region pages -->
+  <url><loc>https://ai-career-lab-deploy.pages.dev/region/tokyo/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/region/osaka/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/region/nagoya/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/region/fukuoka/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/region/sapporo/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/region/yokohama/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/region/kyoto/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/region/sendai/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/region/hiroshima/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/region/full-remote/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
 </urlset>

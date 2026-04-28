@@ -131,6 +131,39 @@ export default function SiteHeader() {
               ))}
 
               <div className="border-t border-border my-3" />
+              <p className="text-xs text-text-muted font-medium tracking-wider mb-2">企業別</p>
+              {[
+                { name: "Google日本", slug: "google-japan" },
+                { name: "Amazon Japan", slug: "amazon-japan" },
+                { name: "メルカリ", slug: "mercari" },
+                { name: "Preferred Networks", slug: "pfn" },
+              ].map((c) => (
+                <Link key={c.slug} href={`/company/${c.slug}/`} onClick={() => setOpen(false)} className="block py-2.5 px-3 text-text-primary hover:bg-surface-alt rounded-lg">{c.name}</Link>
+              ))}
+
+              <div className="border-t border-border my-3" />
+              <p className="text-xs text-text-muted font-medium tracking-wider mb-2">業界別</p>
+              {[
+                { name: "金融×AI", slug: "finance" },
+                { name: "医療×AI", slug: "healthcare" },
+                { name: "製造×AI", slug: "manufacturing" },
+                { name: "自動車×AI（自動運転）", slug: "automotive" },
+              ].map((ind) => (
+                <Link key={ind.slug} href={`/industry/${ind.slug}/`} onClick={() => setOpen(false)} className="block py-2.5 px-3 text-text-primary hover:bg-surface-alt rounded-lg">{ind.name}</Link>
+              ))}
+
+              <div className="border-t border-border my-3" />
+              <p className="text-xs text-text-muted font-medium tracking-wider mb-2">地域別</p>
+              {[
+                { name: "東京", slug: "tokyo" },
+                { name: "大阪", slug: "osaka" },
+                { name: "福岡", slug: "fukuoka" },
+                { name: "フルリモート", slug: "full-remote" },
+              ].map((r) => (
+                <Link key={r.slug} href={`/region/${r.slug}/`} onClick={() => setOpen(false)} className="block py-2.5 px-3 text-text-primary hover:bg-surface-alt rounded-lg">{r.name}</Link>
+              ))}
+
+              <div className="border-t border-border my-3" />
               <p className="text-xs text-text-muted font-medium tracking-wider mb-2">未経験向け</p>
               {[
                 { name: "AI転職の第一歩ガイド", slug: "first-step" },

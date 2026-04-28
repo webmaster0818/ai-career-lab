@@ -46,6 +46,26 @@ export default function SiteFooter() {
             </ul>
           </div>
           <div>
+            <h4 className="font-bold text-white mb-3">企業別ガイド</h4>
+            <ul className="space-y-2 text-sm">
+              <li><Link href="/company/google-japan/" className="hover:text-white transition-colors">Google日本</Link></li>
+              <li><Link href="/company/amazon-japan/" className="hover:text-white transition-colors">Amazon Japan</Link></li>
+              <li><Link href="/company/mercari/" className="hover:text-white transition-colors">メルカリ</Link></li>
+              <li><Link href="/company/pfn/" className="hover:text-white transition-colors">Preferred Networks</Link></li>
+              <li><Link href="/company/pksha/" className="hover:text-white transition-colors">PKSHA Technology</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-bold text-white mb-3">業界・地域別</h4>
+            <ul className="space-y-2 text-sm">
+              <li><Link href="/industry/finance/" className="hover:text-white transition-colors">金融×AI転職</Link></li>
+              <li><Link href="/industry/healthcare/" className="hover:text-white transition-colors">医療×AI転職</Link></li>
+              <li><Link href="/industry/automotive/" className="hover:text-white transition-colors">自動車×AI転職</Link></li>
+              <li><Link href="/region/tokyo/" className="hover:text-white transition-colors">東京のAI求人</Link></li>
+              <li><Link href="/region/full-remote/" className="hover:text-white transition-colors">フルリモートAI求人</Link></li>
+            </ul>
+          </div>
+          <div>
             <h4 className="font-bold text-white mb-3">比較・コラム</h4>
             <ul className="space-y-2 text-sm">
               <li><Link href="/compare/geekly-vs-levtech/" className="hover:text-white transition-colors">Geekly vs レバテック比較</Link></li>
@@ -53,7 +73,6 @@ export default function SiteFooter() {
               <li><Link href="/beginner/first-step/" className="hover:text-white transition-colors">AI転職の第一歩</Link></li>
               <li><Link href="/beginner/study-plan/" className="hover:text-white transition-colors">6ヶ月学習プラン</Link></li>
               <li><Link href="/article/ai-engineer-future/" className="hover:text-white transition-colors">AIエンジニアの将来性</Link></li>
-              <li><Link href="/article/llm-engineer-career/" className="hover:text-white transition-colors">LLMエンジニアとは</Link></li>
               <li><Link href="/article/career-change-30s/" className="hover:text-white transition-colors">30代からのAI転職</Link></li>
             </ul>
           </div>
