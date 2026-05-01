@@ -514,6 +514,44 @@ export default async function RankingPage({ params }: Props) {
           </div>
         </section>
 
+        {/* 関連コンテンツ */}
+        <section className="py-12 bg-surface" id="related">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl font-black text-text-primary mb-2">
+              <span className="gradient-text">関連コンテンツ</span>
+            </h2>
+            <p className="text-sm text-text-muted mb-6">あわせて読みたいページ</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {[
+                { href: "/job/ai-engineer/", label: "AIエンジニアの仕事内容・年収・求人", category: "職種ガイド" },
+                { href: "/job/ml-engineer/", label: "機械学習エンジニアの仕事内容・年収", category: "職種ガイド" },
+                { href: "/job/data-scientist/", label: "データサイエンティストの仕事内容・年収", category: "職種ガイド" },
+                { href: "/agent/geekly/", label: "GeeklyのAI求人・特徴・評判", category: "エージェント" },
+                { href: "/agent/levtech-career/", label: "レバテックキャリアのAI求人・評判", category: "エージェント" },
+                { href: "/compare/geekly-vs-levtech/", label: "GeeklyとレバテックキャリアをAI求人数で比較", category: "比較" },
+                { href: "/salary/ranking/", label: "AI・ML職種別 年収ランキング2026", category: "年収情報" },
+                { href: "/salary/by-tech/", label: "技術スタック別 年収比較2026", category: "年収情報" },
+              ].map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="flex items-center gap-3 bg-[#F8FAFF] rounded-xl p-4 border border-border shadow-sm card-hover group"
+                >
+                  <span className="flex-shrink-0 px-2 py-0.5 rounded-full bg-primary/10 text-primary text-[10px] font-semibold whitespace-nowrap">
+                    {item.category}
+                  </span>
+                  <span className="text-sm font-medium text-text-primary group-hover:text-primary transition-colors leading-snug">
+                    {item.label}
+                  </span>
+                  <svg className="w-4 h-4 text-text-muted group-hover:text-primary transition-colors flex-shrink-0 ml-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* ===== CTA ===== */}
         <section className="py-14 md:py-20">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

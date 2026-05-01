@@ -96,4 +96,13 @@
   <url><loc>https://ai-career-lab-deploy.pages.dev/region/sendai/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://ai-career-lab-deploy.pages.dev/region/hiroshima/</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
   <url><loc>https://ai-career-lab-deploy.pages.dev/region/full-remote/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <!-- Hub pages -->
+  <url><loc>https://ai-career-lab-deploy.pages.dev/hub/llm-engineer-guide/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/hub/tokyo-ai-career/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/hub/osaka-ds-career/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/hub/finance-ai-career/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/hub/healthcare-ai-career/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/hub/inexperienced-complete/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/hub/ai-career-failure/</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://ai-career-lab-deploy.pages.dev/hub/ai-salary-complete/</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
 </urlset>

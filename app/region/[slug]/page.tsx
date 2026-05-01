@@ -299,6 +299,44 @@ export default async function RegionPage({
           </div>
         </section>
 
+        {/* 関連コンテンツ */}
+        <section className="py-12 bg-surface" id="related">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6">
+            <h2 className="text-2xl font-black text-text-primary mb-2">
+              <span className="gradient-text">関連コンテンツ</span>
+            </h2>
+            <p className="text-sm text-text-muted mb-6">あわせて読みたいページ</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {[
+                { href: "/company/google-japan/", label: "Google Japan AIエンジニア転職ガイド", category: "企業ガイド" },
+                { href: "/company/amazon-japan/", label: "Amazon Japan AIエンジニア転職ガイド", category: "企業ガイド" },
+                { href: "/company/mercari/", label: "メルカリ AIエンジニア転職ガイド", category: "企業ガイド" },
+                { href: "/agent/geekly/", label: "GeeklyのAI求人・特徴・評判", category: "エージェント" },
+                { href: "/agent/levtech-career/", label: "レバテックキャリアのAI求人・評判", category: "エージェント" },
+                { href: "/agent/bizreach/", label: "ビズリーチのAIハイクラス求人・評判", category: "エージェント" },
+                { href: "/salary/ranking/", label: "AI・ML職種別 年収ランキング2026", category: "年収情報" },
+                { href: "/job/ai-engineer/", label: "AIエンジニアの仕事内容・年収・求人", category: "職種ガイド" },
+              ].map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="flex items-center gap-3 bg-[#F8FAFF] rounded-xl p-4 border border-border shadow-sm card-hover group"
+                >
+                  <span className="flex-shrink-0 px-2 py-0.5 rounded-full bg-primary/10 text-primary text-[10px] font-semibold whitespace-nowrap">
+                    {item.category}
+                  </span>
+                  <span className="text-sm font-medium text-text-primary group-hover:text-primary transition-colors leading-snug">
+                    {item.label}
+                  </span>
+                  <svg className="w-4 h-4 text-text-muted group-hover:text-primary transition-colors flex-shrink-0 ml-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="py-14 tech-grid">
           <div className="max-w-4xl mx-auto px-4 sm:px-6">
