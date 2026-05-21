@@ -47,6 +47,11 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col bg-[#F8FAFF] text-[#1a1a2e]">
         {children}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: "{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"name\":\"AIキャリアラボ\",\"url\":\"https://ai-career-lab.pages.dev/\",\"logo\":\"https://ai-career-lab.pages.dev/favicon.ico\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"株式会社MediaX\",\"url\":\"https://mediax.biz\"},\"sameAs\":[\"https://ai-career-lab.pages.dev/about/\"]}" }}
+        />
+        
       </body>
     </html>
   );
