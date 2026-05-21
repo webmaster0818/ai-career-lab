@@ -11,6 +11,9 @@ const notoSansJP = Noto_Sans_JP({
 export const metadata: Metadata = {
   metadataBase: new URL("https://ai-career-lab.pages.dev"),
   alternates: { canonical: "/" },
+  twitter: {
+    card: "summary_large_image",
+  },
   title:
     "AIキャリアラボ｜AIエンジニア・データサイエンティスト向け転職エージェント比較【2026年最新】",
   description:
