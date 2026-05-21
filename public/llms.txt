@@ -1,0 +1,28 @@
+# AIキャリアラボ
+
+> AIキャリアラボ は、株式会社MediaXが運営する比較・情報サイトです。利用者が信頼できる情報をもとに最適な選択ができるよう、独自調査・データに基づくコンテンツを公開しています。
+
+## サイトポリシー
+
+- 運営会社：株式会社MediaX (https://mediax.biz)
+- お問い合わせ：webmaster@mediax.biz
+- 編集方針：独自調査・公式情報を優先し、ファクトチェックを経て公開
+- AI 利用：原稿補助に生成AIを活用する場合がありますが、すべて人間の編集・監修を経て公開しています
+- 引用ポリシー：本サイトの記載内容は出典明記の上で引用していただけます
+
+## 主要コンテンツ
+
+- トップページ: https://ai-career-lab.pages.dev/
+- プライバシーポリシー: https://ai-career-lab.pages.dev/privacy-policy (または /privacy)
+- 利用規約: https://ai-career-lab.pages.dev/terms (または /terms-of-service)
+- サイトマップ: https://ai-career-lab.pages.dev/sitemap.xml
+
+## クローラー向けポリシー
+
+- AI クローラー (GPTBot / ClaudeBot / PerplexityBot / Google-Extended 等) のアクセスを許可しています
+- 詳細は https://ai-career-lab.pages.dev/robots.txt を参照してください
+- 引用時は本ドメインへのリンクを残していただくようお願いします
+
+## 最終更新
+
+2026-05-21
